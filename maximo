@@ -1,0 +1,68 @@
+/*Maximo
+Alexis Friedrich
+18/05/2015
+*/
+#include <iostream>
+using namespace std;
+int main()
+{
+double x,y,z;
+cout<<"ingrese primer numero"<<endl;
+cin>>x;
+cout<<"ingrese segundo numero"<<endl;
+cin>>y;
+if(x>y)
+	{
+	cout<<"el mayor es "<< x <<endl;
+	z=x;
+	while (x!='a')
+		{
+		cin>>x;
+		if (x==z)
+			cout<<"los numeros son iguales"<<endl;
+		if (z>x)
+			cout<<"el mayor es "<< z <<endl;
+		if (x>z)
+			{
+			cout<<"el mayor es "<< x <<endl;
+			z=x;
+			}
+		}
+	}
+if(x<y)
+	{
+	cout<<"el mayor es "<< y <<endl;
+	z=y;
+	while (y!='a')
+	{
+	cin>>y;
+	if (y==z)
+		cout<<"los numeros son iguales"<<endl;
+	if (z>y)
+		cout<<"el mayor es "<< z <<endl;
+	if (y>z)
+		{
+		cout<<"el mayor es "<< y <<endl;
+		z=y;
+		}
+	}
+	}
+if (x==y)
+	{	
+	cout<<"los numeros son iguales"<<endl;
+	z=x;
+		while (x!='a')
+		{
+		cin>>x;
+		if (x==z)
+			cout<<"los numeros son iguales"<<endl;
+		if (z>x)
+			cout<<"el mayor es "<< z <<endl;
+		if (x>z)
+			{
+			cout<<"el mayor es "<< x <<endl;
+			z=x;
+			}
+		}
+	}
+}
